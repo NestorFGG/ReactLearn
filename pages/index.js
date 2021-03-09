@@ -1,7 +1,6 @@
-function index(){
-    return (
+export default () => (
+    <div>
         <h1>Hola Mundo de nuevo</h1>
-    )
-}
-
-export default index
+        <p>Esta es mi página de prueba</p>
+    </div>
+)
